@@ -23,4 +23,8 @@ function wn {
 function tn {
   printf "\e]1;$1\a"
 }
+
+# Customize Terminal Prompt
+
+export PS1="\W:"
 ~~~
