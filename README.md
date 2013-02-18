@@ -1,4 +1,5 @@
-\# Git aliases
+~~~
+# Git aliases
 
 alias get='git'
 alias gut='git'
@@ -9,14 +10,15 @@ alias gc='git commit -m'
 alias gp='git push'
 alias gr='git rm -r'
 
-\# Rename Terminal window
+# Rename Terminal window
 
 function wn {
   printf "\e]2;$1\a"
 }
 
-\# Rename Terminal tab
+# Rename Terminal tab
 
 function tn {
   printf "\e]1;$1\a"
 }
+~~~
