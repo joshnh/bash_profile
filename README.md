@@ -17,19 +17,19 @@ alias gp='git push'
 alias gr='git rm -r'
 alias gb='git checkout -b'
 
-# Rename Terminal Window
+# Rename Terminal Window - Usage: wn 'window name'
 
 function wn {
   printf "\e]2;$1\a"
 }
 
-# Rename Terminal Tab
+# Rename Terminal Tab - Usage: tn 'tab name'
 
 function tn {
   printf "\e]1;$1\a"
 }
 
-# Customize Terminal Prompt
+# Customize Terminal Prompt - Shows: joshuanhibbert/.../folder:
 
 export PS1='\u/.../\W:'
 ~~~
