@@ -28,6 +28,6 @@ function tn {
   printf "\e]1;$1\a"
 }
 
-# Customize Terminal Prompt - Shows: joshuanhibbert/.../folder:
+# Customize Terminal Prompt - Shows: username/.../folder:
 
 export PS1='\u/.../\W:'
