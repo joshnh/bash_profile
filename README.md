@@ -26,5 +26,5 @@ function tn {
 
 # Customize Terminal Prompt
 
-export PS1="\W:"
+export PS1="\u/.../\W:"
 ~~~
