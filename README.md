@@ -4,11 +4,13 @@
 alias get='git'
 alias gut='git'
 alias got='git'
+alias gi='git init'
 alias gs='git status'
 alias ga='git add'
 alias gc='git commit -m'
 alias gp='git push'
 alias gr='git rm -r'
+alias gb='git checkout -b'
 
 # Rename Terminal Window
 
