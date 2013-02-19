@@ -1,22 +1,22 @@
 # General Aliases
 
-alias cdg='cd ~/github'
-alias st='open -a "Sublime Text 2"'
-alias bp='st ~/.bash_profile'
+alias cdg='cd ~/github '
+alias st='open -a "Sublime Text 2" '
+alias bp='st ~/.bash_profile '
 
 # Git Aliases
 
-alias get='git'
-alias gut='git'
-alias got='git'
-alias gi='git init'
-alias gs='git status'
-alias ga='git add'
-alias gc='git commit -m'
-alias gac='ga -A && gc'
-alias gp='git push'
-alias gr='git rm -r'
-alias gb='git checkout -b'
+alias get='git '
+alias gut='git '
+alias got='git '
+alias gi='git init '
+alias gs='git status -sb '
+alias ga='git add '
+alias gc='git commit -m '
+alias gac='ga -A && gc '
+alias gp='git push '
+alias gr='git rm -r '
+alias gb='git checkout -b '
 
 # Rename Terminal Window - Usage: wn 'window name'
 
