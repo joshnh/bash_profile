@@ -18,6 +18,12 @@ alias gp='git push '
 alias gr='git rm -r '
 alias gb='git checkout -b '
 
+gacp() {
+  git add -A;
+  git commit -m "$1";
+  git push;
+} # Thanks to Andrew Hathaway: https://gist.github.com/AndrewHathaway/4983844
+
 # Rename Terminal Window - Usage: wn 'window name'
 
 function wn {
