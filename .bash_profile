@@ -2,6 +2,7 @@
 
 alias cdg='cd ~/github'
 alias st='open -a "Sublime Text 2"'
+alias bp='st ~/.bash_profile'
 
 # Git Aliases
 
