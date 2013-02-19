@@ -38,4 +38,4 @@ function tn {
 
 # Customize Terminal Prompt - Shows: username/.../folder:
 
-export PS1='\u/.../\W:'
+export PS1='\n\u/.../\W:'
