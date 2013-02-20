@@ -20,7 +20,7 @@ alias gr='git rm -r '
 alias gb='git checkout -b '
 alias gd='git diff '
 
-gacp() {
+function gacp {
   git add -A;
   git commit -m "$1";
   git push;
