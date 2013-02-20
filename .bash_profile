@@ -41,3 +41,8 @@ function tn {
 # Customize Terminal Prompt - Shows: username/.../folder:
 
 export PS1='\n\u/.../\W:'
+
+#  Add Colour
+
+export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced
