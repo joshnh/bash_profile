@@ -18,6 +18,7 @@ alias gac='ga -A && gc '
 alias gp='git push '
 alias gr='git rm -r '
 alias gb='git checkout -b '
+alias gc-='git checkout - '
 alias gd='git diff '
 
 function gacp {
