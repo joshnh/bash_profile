@@ -20,6 +20,8 @@ alias gr='git rm -r '
 alias gb='git checkout -b '
 alias gc-='git checkout - '
 alias gd='git diff '
+alias m='master '
+alias o='origin '
 
 function gacp {
   git add -A;
