@@ -1,8 +1,10 @@
 # General Aliases
 
+alias ls = 'ls -GFh '
 alias cdg='cd ~/github '
 alias st='open -a "Sublime Text 2" '
 alias bp='st ~/.bash_profile '
+alias trash='rm -rf ~/.Trash/* '
 
 # Git Aliases
 
