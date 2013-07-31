@@ -1,6 +1,6 @@
 # General Aliases
 
-alias ls = 'ls -GFh '
+alias ls='ls -GFh '
 alias cdg='cd ~/github '
 alias st='open -a "Sublime Text 2" '
 alias bp='st ~/.bash_profile '
@@ -26,8 +26,8 @@ alias gd='git diff '
 function gacp {
   git add -A;
   git commit -m "$1";
-  git push;
-} # Thanks to Andrew Hathaway: https://gist.github.com/AndrewHathaway/4983844
+  git push origin $2;
+}
 
 # Rename Terminal Window - Usage: wn 'window name'
 
