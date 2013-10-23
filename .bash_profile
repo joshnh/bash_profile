@@ -5,6 +5,7 @@ alias cdg='cd ~/github '
 alias st='open -a "Sublime Text 2" '
 alias bp='st ~/.bash_profile '
 alias trash='rm -rf ~/.Trash/* '
+alias finder='/System/Library/CoreServices/Finder.app/Contents/MacOS/Finder'
 
 # Git Aliases
 
