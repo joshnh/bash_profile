@@ -23,6 +23,10 @@ alias gb='git checkout -b '
 alias gc-='git checkout - '
 alias gd='git diff '
 
+function gcl {
+	git clone ssh://git@github.com/$1/$2.git;
+}
+
 function gacp {
   git add -A;
   git commit -m "$1";
