@@ -45,9 +45,9 @@ function tn {
 	printf "\e]1;$1\a"
 }
 
-# Customize Terminal Prompt - Shows: username/.../folder:
+# Customize Terminal Prompt - Shows: username/../folder:
 
-export PS1='\n\u/.../\W:'
+export PS1='\n\u/../\W: '
 
 #  Add Colour
 
