@@ -28,21 +28,21 @@ function gcl {
 }
 
 function gacp {
-  git add -A;
-  git commit -m "$1";
-  git push origin $2;
+	git add -A;
+	git commit -m "$1";
+	git push origin $2;
 }
 
 # Rename Terminal Window - Usage: wn 'window name'
 
 function wn {
-  printf "\e]2;$1\a"
+	printf "\e]2;$1\a"
 }
 
 # Rename Terminal Tab - Usage: tn 'tab name'
 
 function tn {
-  printf "\e]1;$1\a"
+	printf "\e]1;$1\a"
 }
 
 # Customize Terminal Prompt - Shows: username/.../folder:
