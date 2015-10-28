@@ -18,6 +18,8 @@ alias ga='git add '
 alias gc='git commit -m '
 alias gac='ga -A && gc '
 alias gp='git push '
+alias gpo='git push origin '
+alias gpom='git push origin master'
 alias gr='git rm -r '
 alias gb='git checkout -b '
 alias gc-='git checkout - '
@@ -47,7 +49,7 @@ function tn {
 
 # Customize Terminal Prompt - Shows: username/../folder:
 
-export PS1='\n\u/../\W: '
+export PS1='\n\u/../\W/: '
 
 #  Add Colour
 
